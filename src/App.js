@@ -1,7 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
 import { login, logout } from "./auth.redux";
-import "./App.css";
 
 class App extends React.Component {
   render() {
