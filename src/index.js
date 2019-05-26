@@ -14,7 +14,7 @@ const store = createStore(
     window.devToolsExtension ? window.devToolsExtension() : f => f
   )
 );
-
+console.log(store.getState());
 ReactDOM.render(
   <Provider store={store}>
     <App />
